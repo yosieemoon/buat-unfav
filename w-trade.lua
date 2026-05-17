@@ -3,11 +3,10 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = false,
         ["Random Result"] = false,
-        ["Auto Favorite"] = false,
-        ["Auto Unfavorite"] = true,
+        ["Auto Favorite"] = true,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
-            
+            {Name = "Ruby", Variant = "Gemstone"},"Easter Duckling","Pastel Guppie","Chocolate Bunny Fish","Easter Snail",
         },
         ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
@@ -38,7 +37,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Element Rod"] = false,
         ["Auto Element Rod 2"] = true,
         ["Auto Diamond Rod"] = false,
-    ["Unlock Ancient Ruin"] = true,
+ 	["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
             "Ghost Shark",
@@ -56,7 +55,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Elshark Gran Maja",
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ancient Ruin",
- 
+
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
@@ -151,25 +150,25 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod", "Luck Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Underwater City"] = {"Diamond Rod"."Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
     },
- 
-    ["ExtremeFpsBoost"] = false,
+
+    ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = false,
+    ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = false,
- 
+
     ["AutoReconnect"] = false,
     ["HideGUI"] = false,
     ["Debug"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
- 
+
 script_key="7ECF8FC9340DD1F67092AC7E1E16CC04";
- 
+
 loadstring(game:HttpGet("https://paste.monster/lwDAcZvahN9G/raw/"))()
 loadstring(game:HttpGet("https://sc.pebletz.xyz/loader?t=disconnect_detector"))()
- 
+
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
