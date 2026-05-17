@@ -7,7 +7,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Unfavorite"] = true,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
-            {Name = "Ruby", Variant = "Gemstone"},"Easter Duckling","Pastel Guppie","Chocolate Bunny Fish","Easter Snail",
+            
         },
         ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
@@ -155,9 +155,9 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
  
-    ["ExtremeFpsBoost"] = true,
+    ["ExtremeFpsBoost"] = false,
     ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = true,
+    ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = false,
  
     ["AutoReconnect"] = false,
